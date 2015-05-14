@@ -6,6 +6,8 @@ Generate a JSON file of constituencies, candidates and results of the 2015 Gener
 
 ```sh
 git clone --recursive https://github.com/LeoMcA/ge2015-json.git
+cd ge2015-json
+npm install
 node generate.js > output.json
 ```
 
