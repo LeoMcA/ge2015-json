@@ -9,5 +9,8 @@ git clone --recursive https://github.com/LeoMcA/ge2015-json.git
 node generate.js > output.json
 ```
 
+## Output
+https://gist.github.com/LeoMcA/39d3c48bf36afdea73c0
+
 ## Licence
 [MPL 2.0](https://www.mozilla.org/MPL/2.0/)
