@@ -1,0 +1,23 @@
+{
+  "name": "ge2015-json",
+  "version": "0.0.1",
+  "description": "Tool to collect various bits of data about the 2015 General Election into one nice big JSON file",
+  "main": "generate.js",
+  "dependencies": {
+    "csvtojson": "^0.3.21"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeoMcA/ge2015-json.git"
+  },
+  "author": "Leo McArdle <leomcardle@gmail.com>",
+  "license": "MPL 2.0",
+  "bugs": {
+    "url": "https://github.com/LeoMcA/ge2015-json/issues"
+  },
+  "homepage": "https://github.com/LeoMcA/ge2015-json#readme"
+}
