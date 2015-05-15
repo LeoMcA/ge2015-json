@@ -23,6 +23,7 @@ var votesDir = './ge2015-election-data/votes/';
 constituenciesConverter.on('record_parsed', function(d){
   var id = d['Constituency Code'];
   var name = d['Constituency'];
+  if(id == 'W07000041') name = 'Ynys Môn';
   if(!data.ConstituencyToID[name]) data.ConstituencyToID[name] = id;
   data.constituencies[id] = {
     name: name,
