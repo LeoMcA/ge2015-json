@@ -72,7 +72,7 @@ candidatesConverter.on('end_parsed', function(){
         var pid = d['Party ID'];
         var votes = d['Votes'];
         if(pid == '') pid = generateJointIDs(party);
-        else data.constituencies[cid].candidates[pid].votes = votes;
+        data.constituencies[cid].candidates[pid].votes = votes;
       });
 
       votesConverter.on('end_parsed', function(){
